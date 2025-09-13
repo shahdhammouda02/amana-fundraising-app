@@ -588,6 +588,8 @@ const data: Data = {
 
 const DashboardStats: React.FC<{ stats: FundraisingStats }> = ({ stats }) => (
   <section className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+    <h2 className="col-span-full text-2xl font-bold text-gray-800 mb-4">Our Impact at a Glance</h2>
+
     <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-green-500">
       <h3 className="text-xl font-bold text-gray-800">${stats.total_raised.toLocaleString()}</h3>
       <p className="text-gray-500">Total Raised</p>
